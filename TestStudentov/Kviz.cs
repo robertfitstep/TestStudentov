@@ -124,7 +124,7 @@ namespace TestStudentov
             if (validujAVratVstupUzivatela(Console.ReadLine(), out studentoveOdpovede))
             {
                 studentoveBody = studentoveBody + vyhodnotOdpovede();
-                Console.WriteLine(studentoveBody);
+                //Console.WriteLine(studentoveBody);
                 OpytajSaOtazku();
             }
             else zleZadVstupUzivatela();
